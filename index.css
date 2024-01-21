@@ -1,4 +1,29 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 60px auto;
+}
+
+img {
+    width: 80px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
